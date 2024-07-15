@@ -15,24 +15,12 @@ ChatSpace is an intuitive communication platform designed to bring people togeth
 ### Initial Setup
 Before starting, ensure you have both `npm` and `Node.js` installed on your device. Follow these steps to install the necessary dependencies for both the frontend and backend:
 
-```sh
-npm install
+npm i
 
-Run this command in both the frontend and backend directories.
+Globally install nodemon using the following command:
 
-## Global Installation
-Install `nodemon` globally to facilitate automatic server restarts:
-
-```sh
 npm install -g nodemon
-Running the Application
-Open Two Terminals: Navigate to the frontend and backend folders in separate terminal windows.
 
-Start the Servers: Run nodemon in both terminals to start the development servers.
+Steps to run the application Open two terminals for both the frontend and backend at the respective folders and run nodemon in both terminals. The react server might take a while to load, but once it's done, you'll see a browser tab open with the application.
 
-sh
-Copy code
-nodemon
-The React server might take a few moments to load. Once it's ready, a browser tab will open displaying the ChatSpace application.
-
-Sign In and Explore: Log in with your Google account, create or join channels, and start sharing real-time messages with others!
+Now, sign in with your Google account, create/join channels and you can share real-time messages!
